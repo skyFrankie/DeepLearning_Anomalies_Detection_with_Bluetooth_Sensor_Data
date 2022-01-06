@@ -23,3 +23,4 @@ Models used in this project are LSTM Autoencoder and 1D-Convolution NN Autoencod
 As the dataset has no label about when and where the anomalies occured, outliers at different time intervals labelled as anomalies to test out the performance of the model.
 The purpose of this project is to test out the capability of Neural Network to capture the anomalies of route by bluetooth sensor data and further looks for a optimal model approach to do so.
 Further development may be real-time anomalies detection.
+
