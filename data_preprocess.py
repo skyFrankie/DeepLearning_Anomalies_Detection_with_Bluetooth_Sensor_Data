@@ -8,5 +8,7 @@ def read_raw_csv(year,month,date):
     temp = pd.read_csv(RAW_DATA_PATH/f'{year}_{month}_BTdata'/f'Data{month_dict[month]}{date}.csv',names=col_name)
     return temp
 
+test = read_raw_csv(2017,11,14)
+
 
 
