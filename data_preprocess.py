@@ -9,7 +9,7 @@ def read_raw_csv(year,month,date):
     return temp
 
 test = read_raw_csv(2017,11,14)
-print(hi)
+print(h3i)
 
 
 
