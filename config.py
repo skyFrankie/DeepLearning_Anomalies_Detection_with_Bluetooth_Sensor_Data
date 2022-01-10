@@ -1,3 +1,6 @@
 from pathlib import Path
 
-RAW_DATA_PATH = Path('Dataset/Data')
+TIME_DATA_PATH = Path('Dataset/Travel_Time_Data')
+LOCATION_DATA_PATH = Path('Dataset/Location_Data')
+OUTPUT_DATA_PATH = Path('Dataset/Processed_data')
+DATA_PATH = Path('Dataset')
