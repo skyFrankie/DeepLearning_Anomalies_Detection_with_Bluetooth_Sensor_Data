@@ -6,7 +6,6 @@ from pyspark.sql import SparkSession
 import os
 
 
-
 class Dataprocessor():
     def __init__(self,start_date,end_date):
         self.corridor_M = self.read_location_csv('M')
@@ -28,9 +27,7 @@ class Dataprocessor():
         """
         temp_num = 24
         for i in time_array:
-            if i < targe_time:
-                continue
-            else:
+            if i >= targe_time:
                 temp_num = i
                 break
         return temp_num
