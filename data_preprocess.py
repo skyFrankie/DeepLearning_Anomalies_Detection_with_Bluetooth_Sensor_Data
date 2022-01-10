@@ -4,14 +4,8 @@ import datetime
 import numpy as np
 from pyspark.sql import SparkSession
 import os
-import seaborn as sns
-import matplotlib.pyplot as plt
-import tqdm
 
-# corridor_M = [10128,10079,10078,10080,10086,10139,10282,10034,10182]
-# corridor_C_right = [10345,10093,10167,10322,10175,10281,10210,10089,10264,10152,10278,10088,10364,10181,10203,10087,10188,10221]
-# corridor_C_left = [10345,10093,10167,10322,10175,10214,10219,10222,10210,10089,10264,10152,10278,10088,10364,10181,10203,10087,10188,10221]
-# corridor_C_left.reverse()
+
 
 class Dataprocessor():
     def __init__(self,start_date,end_date):
